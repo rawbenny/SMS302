@@ -73,6 +73,8 @@ public class LoginActivity extends AppCompatActivity {
 
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
+        mEmailView.setText("2809802898@qq.com");
+        mPasswordView.setText("rptqclrxrwoadeh1");
 
         // init data helper
         this.dataHelper = new DataHelper(this);
